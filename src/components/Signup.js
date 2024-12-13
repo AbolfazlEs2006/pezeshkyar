@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom'
 import { Navigate } from 'react-router-dom'
 
 export default function Signup() {
+  document.title = 'Sign up'
+
     const [username , setUsername] = useState('')
     const [phoneNum , setPhoneNum] = useState('')
     const [password , setPassword] = useState('')

@@ -9,6 +9,9 @@ import Basket from './Basket'
 
 export default function Aboutproduct() {
 
+  document.title = 'Products'
+
+
   const [count, setCount] = useState(1)
   const [basket, setBasket] = useState([])
 

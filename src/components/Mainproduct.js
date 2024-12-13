@@ -7,6 +7,8 @@ import Basket from './Basket'
 
 
 export default function Mainproduct() {
+  document.title = 'Products'
+
   return (
     <>
         <Header>

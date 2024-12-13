@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Container } from "react-bootstrap";
 import ProductionQuantityLimitsIcon from '@mui/icons-material/ProductionQuantityLimits';
-
+import { Link } from 'react-bootstrap/lib/Navbar';
 
 import './main.css'
 
@@ -20,15 +20,17 @@ export default function Main() {
             </div>
         </div>
         <div className="Product-main">
-            <img src="./img/Lamp.png" />
-            <div>
-                <h1>برس پاک سازی میوتو</h1>
-                <p>دماسنج | تب سنج</p>
+            <Link>
+                <img src="./img/Lamp.png" />
                 <div>
-                    <i><ProductionQuantityLimitsIcon /></i>
-                    <h3>650,000</h3>
+                    <h1>برس پاک سازی میوتو</h1>
+                    <p>دماسنج | تب سنج</p>
+                    <div>
+                        <i><ProductionQuantityLimitsIcon /></i>
+                        <h3>650,000</h3>
+                    </div>
                 </div>
-            </div>
+            </Link>
         </div>
     </Container>
     </>

@@ -1,5 +1,6 @@
 import React from 'react'
 import ChatOutlinedIcon from '@mui/icons-material/ChatOutlined';
+import Visit from './Visit';
 
 export default function CardDoctor (props) {
   return (
@@ -11,9 +12,10 @@ export default function CardDoctor (props) {
             <div className='about-doctor-card'>
                 <h3>دکتر  {props.name}</h3>
                 <p>{props.des}</p>
-                <button><ChatOutlinedIcon /> درخواست مشاوره </button>
+                <button type="button" class="btn btn-primary text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><ChatOutlinedIcon /> درخواست مشاوره </button>
             </div>
         </div>
+        <Visit name={props.name} />
     </>
   )
 }

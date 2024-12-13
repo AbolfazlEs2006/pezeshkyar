@@ -51,6 +51,28 @@
         color: gray;
         transition-duration: 0.5s;
     }
+    .modal-doctor {
+        margin-top: 10rem;
+        height: 100vh !important;
+    }
+    .input-modal input:focus {
+        outline: none;
+    }
+    .close-btn {
+        margin: auto;
+    }
+    .title-modal {
+        margin-left: 18rem;
+    }
+    .name-doctor-modal {
+        padding: 1rem;
+        color: rgb(50, 50, 50);
+        background-color: rgb(205, 205, 205);
+        font-weight: bold;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 @media screen and (min-width: 680px) {
     .doctor-card {
@@ -62,6 +84,13 @@
 @media screen and (min-width: 990px) {
     .doctor-card {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .visit {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (min-width: 1028px) {

@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import { Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import { Navigate } from 'react-router-dom'
 
 export default function Signup() {
   document.title = 'Sign up'

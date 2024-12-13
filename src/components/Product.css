@@ -1,0 +1,193 @@
+@media screen and (min-width: 360px) {
+    .Product-swip {
+        display: flex;
+        width: 30% !important;
+        height: 350px !important;
+        text-align: center;
+        border: 1px solid rgb(199, 199, 199);
+        padding: 1rem;
+        border-radius: 10px;
+        transition-duration: 0.5s;
+        border-bottom: none;
+    }
+    .Product-swip a {
+        text-decoration: none;
+    }
+    .Product-swip div div div {
+        text-align: start;
+    }
+    .Product-swip:hover {
+        background-color: rgb(234, 234, 234);
+        .add-product button {
+            background-color: #0052a8;
+        }
+    }
+    .Product-swip div div div h1 {
+        font-size: 1.2rem;
+        margin: 1rem 0;
+    }
+    .add-product {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+        padding: 0 0.5rem;
+    }
+    .Product-swip div div img {
+        width: 40%;
+        margin-top: 1rem;
+    }
+    .product-dis {
+        display: flex;
+    }
+    .add-product button {
+        background-color: rgb(187, 187, 187);
+        padding: 0.5rem;
+        border-radius: 10px;
+        border: none;
+    }
+    .add-product svg {
+        color: white;
+    }
+    .swiper-product {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .des-product {
+        display: flex;
+        flex-direction: column-reverse;
+        border: 1px solid rgb(216, 216, 216);
+        padding: 3rem;
+        margin-top: 3rem;
+        border-radius: 10px;
+    }
+    .about-product-dis h1  {
+        color: #0052a8;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .about-product-dis p {
+        background-color: rgb(235, 235, 235);
+        color: gray;
+        padding: 2rem;
+        margin-top: 2rem;
+        border-radius: 10px;
+    }
+    .about-product-dis div{
+        display: flex;
+        justify-content: center;
+        gap: 0.7rem;
+    }
+    .about-product-dis div h3 {
+        color: gray;
+        font-weight: bold;
+    }
+    .about-product-dis div button, .about-product-dis div div button {
+        padding: 0.2rem 1rem;
+        border: none;
+        background-color: #61ce70;
+        color: #fff;
+        border-radius: 10px;
+        transition-duration: 0.7s;
+    }
+    .about-product-dis div div button:hover {
+        opacity: 0.9;
+    }
+    .about-product-img {
+        margin-right: 2rem;
+        border: 1px solid gray;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin-bottom: 1rem;
+    }
+    .about-product-img img{
+        width: 50%;
+        border-radius: 10px;
+    }
+    .product-price {
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .product-price h5 , .product-price h3{
+        background-color: rgb(234, 234, 234);
+        color: gray;
+        padding: 0.5rem;
+        border-radius: 10px;
+    }
+    .product-price h3 {
+        background-color: transparent;
+        font-size: 1.5rem;
+    }
+    .addProduct {
+        margin-top: 3rem;
+        justify-content: start !important;
+    }
+    .pointview {
+        border: 1px solid rgb(230, 230, 230);
+        padding: 2rem;
+    }
+    .pointview h5 {
+        color: gray;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    .pointview div {
+        display: flex;
+        justify-content: space-around;
+    }
+    .pointview div input {
+        width: 100%;
+        margin-left: 1rem;
+        padding: 0.5rem;
+        border-radius: 10px;
+        border: 1px solid gray;
+    }
+    .pointview div input:focus {
+        outline: none;
+    }
+    .pointview textarea {
+        width: 98.8%;
+        margin-top: 2rem;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .pointview textarea:focus {
+        outline: none;
+    }
+    .pointview button {
+        border: none;
+        background-color: #61ce70;
+        color: white;
+        border-radius: 10px;
+        padding: 0.5rem;
+        margin-top: 2rem;
+        transition-duration: 0.7s;
+    }
+    .pointview button:hover {
+        opacity: 0.9;
+    }
+    .Allproduct-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .Allproduct-card a {
+        border: 1px solid gainsboro;
+        margin: 1rem;
+        border-radius: 10px;
+    }
+}
+@media screen and (min-width: 990px) {
+    .Product-swip {
+        width: 25% !important;
+    }
+    .des-product {
+        flex-direction: row;
+    }
+    .about-product-img img {
+        width: 90%;
+    }
+}

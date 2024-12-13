@@ -1,0 +1,14 @@
+.send-box {
+    background-color: #00dca7;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem 5rem 0.1rem 1rem;
+}
+.send-box div {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.7rem;
+}
+.send-box div h1 {
+    font-size: 1.5rem;
+}

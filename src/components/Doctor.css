@@ -1,0 +1,69 @@
+@media screen and (min-width: 360px) {
+    .card-doctor {
+        border: 1px solid gray;
+        border-bottom: none ;
+        padding: 1rem;
+        border-radius: 10px;
+        transition-duration: 0.5s;
+        margin-bottom: 1rem;
+    }
+    .card-doctor:hover {
+        background-color: rgb(234, 234, 234);
+        cursor: pointer;
+        .about-doctor-card button {
+            background-color: #0052a8;
+            color: white;
+        }
+    }
+    .img-doctor-card {
+        display: flex;
+        justify-content: center;
+        padding-top: 0.5rem;
+    }
+    .img-doctor-card img {
+        width: 25%;
+        background-color: rgb(231, 166, 166);
+        border-radius: 40%;
+        padding-top: 0.5rem;
+    }
+    .about-doctor-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 1.2rem;
+    }
+    .about-doctor-card h3 , .about-doctor-card p {
+        margin-bottom: 0.7rem;
+    }
+    .about-doctor-card h3 {
+        color: #0052a8;
+        font-weight: bold;
+    }
+    .about-doctor-card p {
+        font-size: 0.9rem;
+        color: gray;
+    }
+    .about-doctor-card button {
+        border: none;
+        padding: 0.5rem;
+        border-radius: 10px;
+        color: gray;
+        transition-duration: 0.5s;
+    }
+}
+@media screen and (min-width: 680px) {
+    .doctor-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+@media screen and (min-width: 990px) {
+    .doctor-card {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media screen and (min-width: 1028px) {
+    
+}

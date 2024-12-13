@@ -1,0 +1,24 @@
+.container-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+.container-title button {
+    border: none;
+    background-color: transparent;
+    color: #0052a8;
+    font-weight: bold;
+}
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgb(227, 227, 227);
+    margin: 0 20px; /* فاصله بین متن‌ها و خط */
+}
+.title-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0052a8;
+}

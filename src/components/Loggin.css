@@ -1,0 +1,87 @@
+@media screen and (min-width: 360px) {
+    .Loginpage , .signup {
+        background-color: #f5f6f7;
+        padding: 1.5rem;
+        margin-bottom: 0.5rem;
+        border-radius: 10px;
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+    }
+    .Loginpage h2, .signup h2{
+        color: #0052a8;
+        margin-bottom: 0.8rem;
+    }
+    .Loginpage p, .signup p {
+        color: gray;
+    }
+    .Loginpage , .signup{
+        display: flex;
+        flex-direction: column;
+    }
+    .Loginpage input, .signup input {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border-radius: 20px;
+        border: 1px solid rgb(208, 208, 208);
+        padding-right: 1rem;
+    }
+    .val {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    .val-check {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+    }
+    .Loginpage input:focus , .signup input:focus{
+        outline: none;
+    }
+    .Loginpage div div label, .signup div div label{
+        margin-right: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .Loginpage div .signup div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+    }
+    .Loginpage div div a, .signup div div a{
+        text-decoration: none;
+
+        color: rgb(63, 63, 63);
+    }
+    .Loginpage a , .signup a{
+        text-decoration: none;
+        color: #0052a8 !important;
+        margin-bottom: 1.5rem;
+        margin-top: 0.5rem;
+    }
+    .Loginpage button, .signup button{
+        background-color: #00dca7;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 10px;
+        color: rgb(44, 44, 44);
+    }
+    .Loginpage button:focus, .signup button:focus {
+        opacity: 0.8;
+    }
+    .Container-Login a {
+        text-decoration: none;
+        color: rgb(63, 63, 63);
+    }
+}
+@media screen and (min-width: 680px) {
+    
+}
+@media screen and (min-width: 990px) {
+    
+}
+@media screen and (min-width: 1028px) {
+    body {
+        margin: 8rem 12rem 0 12rem;
+    }
+}

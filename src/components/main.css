@@ -1,0 +1,118 @@
+@media screen and (min-width: 100px) {
+    .Product-main div h2 {
+        border: 1px solid gray;
+    }
+}
+@media screen and (min-width: 360px) {
+    .main-container {
+        margin-top: 1rem;
+    }
+    .doctor-main {
+        display: flex;
+        background-color: #61ce70;
+        width: 100%;
+        color: white;
+        padding: 1rem;
+        border-radius: 10px;
+        padding-bottom: 0;
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+    .doctor-main div img {
+        width: 80%;
+        object-fit: contain;
+        margin-right: 2rem;
+    }
+    .doctor-main div {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .doctor-main div h1 {
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+    .doctor-main div p {
+        margin: 1rem 0;
+    }
+    .Product-main {
+        background-color: rgb(255, 65, 65);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .Product-main img {
+        width: 150px;
+        background-color: white;
+        margin-top: 2rem;
+        border-radius: 30px;
+    }
+    .Product-main div {
+        width: 100%;
+    }
+    .Product-main div h1 {
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+    .Product-main div p {
+        color: rgb(193, 193, 193);
+    }
+    .Product-main div div {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+    }
+    .Product-main div div h3 {
+        padding: 0 1rem;
+    }
+}
+@media screen and (min-width: 680px) {
+}
+@media screen and (min-width: 990px) {
+    .main-container {
+        display: flex;
+        gap: 1rem;
+    }
+    .Product-main {
+        width: 30%;
+    }
+    .doctor-main {
+        height: 100%;
+    }
+    .doctor-main div h1 {
+        font-size: 1.3rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+    .doctor-main div p {
+        font-size: 1rem;
+    }
+    .doctor-main {
+        margin-bottom: 0;
+        justify-content: space-between;
+    }
+    .doctor-main div img {
+        width: 65%;
+        margin-right: 5rem;
+    }
+    .doctor-main div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .doctor-main div h1 {
+        margin-bottom: 0;
+    }
+    .doctor-main div p {
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (min-width: 1200px) {
+
+}

@@ -1,0 +1,32 @@
+/* basket css start */
+.user-basket {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 25%;
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    background-color: #f9f9f9;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.user-basket img {
+    width: 30%;
+}
+.user-basket div h5 {
+    color: #0052a8;
+    margin-bottom: 1rem;
+}
+.user-basket div button {
+    margin-top: 1rem;
+    border: 1px solid rgb(208, 208, 208);
+    background-color: #70d37e;
+    padding: 0.4rem;
+    border-radius: 10px;
+    color: rgb(241, 241, 241);
+}
+/* basket css end */

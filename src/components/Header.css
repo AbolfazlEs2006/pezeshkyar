@@ -1,0 +1,117 @@
+:root {
+    --main-color: #0052a8;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 360px) {
+    .Nav {
+        display: flex;
+    }
+    .Nav-sm {
+        margin-top: 1rem;
+        border: 1px solid gray;
+        border-radius: 10px;
+    }
+    .Nav-sm a {
+        color: gray;
+        margin-bottom: 0.5rem;
+        width: 100%;
+        border-radius: 5px;
+        padding: 0.8rem 1rem;
+        text-decoration: none;
+        transition-duration: 0.7s;
+    }
+    .Nav-sm :hover {
+        color: black;
+    }
+    .Nav-sm a:hover {
+        background-color: rgb(240, 240, 240);
+    }
+    .Nav-logo img {
+        display: block;
+        width: 6rem !important;
+        width: 25%;
+    }
+    .btn-reserve {
+        border: none;
+        padding: 0.7rem;
+        border-radius: 20px;
+        background-color: var(--main-color);
+        color: white;
+        transition-duration: 0.5s;
+    }
+    .btn-reserve:hover {
+        opacity: 0.8;
+    }
+    .btn-person {
+        display: flex;
+        align-items: center;
+        border: none;
+        border: 1px solid var(--main-color);
+        padding: 0.7rem;
+        border-radius: 50%;
+        color: var(--main-color);
+        margin: 0 0.5rem;
+    }
+    .btn-add-product {
+        display: flex;
+        align-items: center;
+        border: none;
+        border: 1px solid var(--main-color);
+        padding: 0.7rem;
+        border-radius: 50%;
+        color: var(--main-color);
+    }
+    .gray-line {
+        margin: 0.5rem 0;        
+        border: 1px solid rgb(231, 231, 231);
+    }
+}
+@media screen and (min-width: 680px) {
+    
+}
+@media screen and (min-width: 990px) {
+    .Nav-logo img {
+        display: block;
+        width: 8rem !important;
+    }
+    .Nav-sm {
+        border: none;
+        border-radius: 0;
+        width:70%;
+        margin-right: 2rem;
+    }
+    .Nav-sm a {
+        width: 100%;
+        text-align: center;
+    }
+    .Nav-sm a:hover {
+        background-color: #fff;
+    }
+}
+@media screen and (min-width: 1028px) {
+    .Nav-sm {
+        border: none;
+        border-radius: 0;
+        width:90%;
+        margin-right: 2rem;
+    }
+    .Nav-sm a {
+        width: 100%;
+        text-align: center;
+    }
+    .Nav-sm a:hover {
+        background-color: #fff;
+    }
+    .gray-line {
+        border: 1px solid rgb(231, 231, 231);
+    }
+}
+@media screen and (min-width: 1200px) {
+    .Nav-sm{
+        width: 60%;
+    }
+}

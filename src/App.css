@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'sense', sans-serif;
+}
+
+@font-face {
+    font-family: 'sense';
+    src: url(../public/font/woff2/iransans-web-ultralight.woff2) format(woff2);
+    src: url(../public/font/woff2/iransans-web-medium.woff2) format(woff2);
+    src: url(../public/font/woff2/iransans-web-black.woff2) format(woff2);
+    src: url(../public/font/woff2/iransans-web-light.woff2) format(woff2);
+}
